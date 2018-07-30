@@ -1,21 +1,6 @@
-import requests
-
-from config import *
-
-
 def main():
-    response = requests.get(API_URL + '/locations', headers=HEADERS).json()
+    # response = requests.get(API_URL + '/player', headers=HEADERS).json()
 
-    countries = []
-
-    for c in response['items']:
-        if c['isCountry']:
-            countries.append({
-                'id': c['id'],
-                'name': c['name']
-            })
-
-    print(len(countries))
     return 0
 
 

@@ -9,7 +9,7 @@ def get_country_top_players(country):
     response = requests.get(API_URL + '/locations/' + str(country['id']) + '/rankings/players?limit=50',
                             headers=HEADERS).json()
     return {
-        country['name']: [player['tag'] for player in response['items']]
+        country['name']: [player['tag'].replace('#', '%') for player in response['items']]
     }
 
 
