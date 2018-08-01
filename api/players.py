@@ -1,4 +1,5 @@
 import json
+import os
 
 import requests
 
@@ -6,7 +7,7 @@ from config import *
 
 
 def get_country_top_players(country):
-    response = requests.get(API_URL + '/locations/' + str(country['id']) + '/rankings/players?limit=50',
+    response = requests.get(API_URL + '/locations/' + str(country['id']) + '/rankings/players',
                             headers=HEADERS).json()
     return {
         country['name']: [player['tag'].replace('#', '%') for player in response['items']]
@@ -15,10 +16,12 @@ def get_country_top_players(country):
 
 def get_global_top_players_api():
     try:
-        with open('countries.json', 'r') as countries_data:
+        with open('seeds/countries.json', 'r') as countries_data:
             countries = json.load(countries_data)
-            with open('top_players.json', 'w') as top_players_file:
-                json.dump([get_country_top_players(country) for country in countries], top_players_file)
+            for country in countries:
+                with open('seeds/top_players/' + country['name'] + '.json', 'w') as top_players:
+                    json.dump(get_country_top_players(country), top_players)
+                print(country['name'] + ' Done')
             return 'Success'
     except Exception as e:
         print(e)
@@ -26,12 +29,16 @@ def get_global_top_players_api():
 
 
 def get_global_top_players():
+    top_players = []
     try:
-        with open('top_players.json', 'w') as top_players_data:
-            return json.load(top_players_data)
+        for country in os.listdir('seeds/top_players'):
+            if country.endswith('.json'):
+                with open('seeds/top_players/' + country, 'r') as top_players_data:
+                    top_players.append(json.load(top_players_data))
+        return top_players
     except Exception as e:
         print(e)
-        return None
+        return top_players
 
 
 if __name__ == '__main__':
