@@ -1,0 +1,2 @@
+from libs.populateData import populateTopPlayers
+from libs.populateData import populateBattleLog
