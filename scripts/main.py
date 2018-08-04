@@ -1,13 +1,11 @@
 import json
-import requests
-import libs
-from config import API_URL, HEADERS
 
 
 def main():
     # libs.populateTopPlayers()
-    libs.populateBattleLog()
-
+    # libs.populate_battle_log()
+    with open('seeds/battle_logs/India.json') as battle_log_file:
+        print(len(json.load(battle_log_file)))
     '''response = requests.get(API_URL + '/cards', headers=HEADERS).json()
     cards = [{
         'name': card['name'],
