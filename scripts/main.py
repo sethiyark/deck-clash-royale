@@ -6,7 +6,7 @@ from config import API_URL, HEADERS
 
 def main():
     # libs.populateTopPlayers()
-    libs.populateBattleLog()
+    libs.populate_battle_log()
 
     '''response = requests.get(API_URL + '/cards', headers=HEADERS).json()
     cards = [{

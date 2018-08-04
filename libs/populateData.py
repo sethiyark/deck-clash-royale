@@ -3,7 +3,7 @@ import requests
 from config import API_URL, HEADERS
 
 
-def populateTopPlayers():
+def populate_top_players():
     with open('seeds/countries.json', 'r') as countries_file:
         countries = json.load(countries_file)
         top_player_tags = []
@@ -19,7 +19,7 @@ def populateTopPlayers():
     return 0
 
 
-def populateBattleLog():
+def populate_battle_log():
     n = 8001
     count = 10
     top_players = []
@@ -47,5 +47,5 @@ def populateBattleLog():
 
 
 if __name__ == '__main__':
-    populateTopPlayers()
-    populateBattleLog()
+    populate_top_players()
+    populate_battle_log()
