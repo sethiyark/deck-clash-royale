@@ -29,4 +29,4 @@ Each sample vector will be of size (1x34)
 
 > **Y** = 1 (Player A won)
 
-> **Z** = 0 (Player B won)
+> **Y** = 0 (Player B won)
