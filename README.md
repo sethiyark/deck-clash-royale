@@ -25,6 +25,6 @@ Deck building support for clash royale
 
 ### Hence our sample vector will have the following structure:
 Each sample vector will be of size (1x34)
-> **X** = [DEFENSE_A, BRAWLERS_A ... TRICKY_A, DEFENSE_B, BRAWLERS_B ... TRICKY_B]
+> **X** = DEFENSE_A, BRAWLERS_A ... TRICKY_A, DEFENSE_B, BRAWLERS_B ... TRICKY_B
 > **Y** = 1 (Player A won)
 > **Z** = 0 (Player B won)
