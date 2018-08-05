@@ -2,6 +2,7 @@ import json
 import threading
 
 from api import get_player_battle_log
+from config import DB
 
 
 class PopulateCountryLog(threading.Thread):
@@ -59,55 +60,51 @@ def populate_battle_log():
 def battle_log_country(country, lock):
     with open('seeds/top_players/' + country + '.json', 'r') as top_players_file:
         top_players_country = json.load(top_players_file)[country]
-        battle_log = []
+        completed_players = []
+        with open('garbage/completed/' + country, 'r') as p:
+            completed_players.extend(p.readlines())
         for player in top_players_country:
-            for battle in get_player_battle_log(player, lock):
-                try:
-                    if battle['type'] == 'PvP' and 'trophyChange' in battle['team'][0].keys() and battle['team'][0]['trophyChange'] != 0:
-                        battle_log.append({
-                            'winning_deck': [{
-                                'name': card['name'],
-                                'level': card['level'],
-                                'maxLevel': card['maxLevel']
-                            } for card in battle['team'][0]['cards']] if battle['team'][0]['trophyChange'] > 0 else [{
-                                'name': card['name'],
-                                'level': card['level'],
-                                'maxLevel': card['maxLevel']
-                            } for card in battle['opponent'][0]['cards']],
-                            'loosing_deck': [{
-                                'name': card['name'],
-                                'level': card['level'],
-                                'maxLevel': card['maxLevel']
-                            } for card in battle['team'][0]['cards']] if battle['team'][0]['trophyChange'] < 0 else [{
-                                'name': card['name'],
-                                'level': card['level'],
-                                'maxLevel': card['maxLevel']
-                            } for card in battle['opponent'][0]['cards']]
-                        })
-                except Exception as e:
-                    print(e, country, player)
-                    continue
-        with open('seeds/battle_logs/' + country + '.json', 'w') as battle_log_file:
-            json.dump(battle_log, battle_log_file)
+            if player not in completed_players:
+                for battle in get_player_battle_log(player, lock):
+                    try:
+                        if battle['type'] == 'PvP' and 'trophyChange' in battle['team'][0].keys() and battle['team'][0]['trophyChange'] != 0:
+                            lock.acquire()
+                            DB.insert('battle_log', {
+                                'player_id': player,
+                                'winning_deck': [{
+                                    'name': card['name'],
+                                    'level': card['level'],
+                                    'maxLevel': card['maxLevel']
+                                } for card in battle['team'][0]['cards']] if battle['team'][0]['trophyChange'] > 0 else [{
+                                    'name': card['name'],
+                                    'level': card['level'],
+                                    'maxLevel': card['maxLevel']
+                                } for card in battle['opponent'][0]['cards']],
+                                'loosing_deck': [{
+                                    'name': card['name'],
+                                    'level': card['level'],
+                                    'maxLevel': card['maxLevel']
+                                } for card in battle['team'][0]['cards']] if battle['team'][0]['trophyChange'] < 0 else [{
+                                    'name': card['name'],
+                                    'level': card['level'],
+                                    'maxLevel': card['maxLevel']
+                                } for card in battle['opponent'][0]['cards']]
+                            })
+                    except Exception as e:
+                        print(e, country, player)
+                        continue
+                    finally:
+                        if lock.locked():
+                            lock.release()
+                with open('garbage/completed/' + country, 'a') as country_completed:
+                    country_completed.write(player + '\n')
     print('Done: ', country)
 
 
 if __name__ == '__main__':
     # populate_top_players()
     # populate_battle_log()
-    completed = ['Ascension Island', 'Canary Islands', 'Caribbean Netherlands', 'Ceuta and Melilla', 'Christmas Island',
-                 'Diego Garcia', 'Eritrea', 'French Southern Territories', 'Heard & McDonald Islands',
-                 'Pitcairn Islands', 'Saint Helena', 'Sint Maarten', 'South Sudan', 'Svalbard and Jan Mayen', 'Tokelau',
-                 'Tristan da Cunha',
-                 'U.S. Outlying Islands', 'Tuvalu', 'Cocos (Keeling) Islands', 'Kosovo', 'Norfolk Island',
-                 'North Korea', 'Saint Barthélemy', 'Curaçao', 'Western Sahara', 'Niue', 'Montserrat',
-                 'Falkland Islands',
-                 'Antarctica', 'Bouvet Island', 'Guinea-Bissau', 'Kiribati', 'Wallis and Futuna',
-                 'British Indian Ocean Territory',
-                 'Vatican City', 'Burundi', 'Tonga', 'Solomon Islands', 'Comoros', 'Central African Republic', 'Palau',
-                 'Samoa', 'Marshall Islands', 'Chad', 'Vanuatu', 'Gambia', 'Equatorial Guinea', 'Liberia',
-                 'Saint Pierre and Miquelon', 'Lesotho', 'São Tomé and Príncipe', 'Micronesia', 'Rwanda',
-                 'Sierra Leone', 'Anguilla', 'Nauru', 'British Virgin Islands', 'Cook Islands', 'Saint Kitts and Nevis']
+    completed = []
     try:
         lock = threading.Lock()
         threads = []
