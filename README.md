@@ -25,7 +25,7 @@ Deck building support for clash royale
 > 18. **HIGH_DPS** - # of cards with high DPS eg.Lumber Jack
 
 ### Hence our sample vector will have the following structure:
-Each sample vector will be of size (1x34)
+Each sample vector will be of size (1x36)
 > **X** = [DEFENSE_A, BRAWLERS_A ... TRICKY_A, DEFENSE_B, BRAWLERS_B ... TRICKY_B]
 
 > **Y** = 1 (Player A won)
