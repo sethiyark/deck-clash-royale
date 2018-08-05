@@ -8,7 +8,15 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "knight"
+    "key": "knight",
+    "speed": 60,
+    "hitPoints": 637,
+    "hitSpeed": 1200,
+    "damage": 75,
+    "range": 1000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Archers",
@@ -19,7 +27,16 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "archers"
+    "key": "archers",
+    "speed": 60,
+    "hitPoints": 120,
+    "hitSpeed": 1200,
+    "damage": 41,
+    "range": 5000,
+    "groundDamage": true,
+    "count": 2,
+    "airDamage": true,
+    "knockBack": true
   },
   {
     "name": "Goblins",
@@ -30,7 +47,15 @@
     },
     "type": "Troop",
     "elixir": 2,
-    "key": "goblins"
+    "key": "goblins",
+    "speed": 120,
+    "hitPoints": 79,
+    "hitSpeed": 1100,
+    "damage": 47,
+    "range": 500,
+    "groundDamage": true,
+    "count": 3,
+    "knockBack": true
   },
   {
     "name": "Giant",
@@ -41,7 +66,14 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "giant"
+    "key": "giant",
+    "speed": 45,
+    "hitPoints": 1900,
+    "hitSpeed": 1500,
+    "damage": 120,
+    "range": 1250,
+    "count": 1,
+    "targetsBuilding": true
   },
   {
     "name": "P.E.K.K.A",
@@ -52,7 +84,14 @@
     },
     "type": "Troop",
     "elixir": 7,
-    "key": "pekka"
+    "key": "pekka",
+    "speed": 45,
+    "hitPoints": 2600,
+    "hitSpeed": 1800,
+    "damage": 510,
+    "range": 750,
+    "groundDamage": true,
+    "count": 1
   },
   {
     "name": "Minions",
@@ -63,7 +102,17 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "minions"
+    "key": "minions",
+    "speed": 90,
+    "hitPoints": 90,
+    "hitSpeed": 1000,
+    "damage": 40,
+    "range": 2000,
+    "groundDamage": true,
+    "count": 3,
+    "airTroop": true,
+    "airDamage": true,
+    "knockBack": true
   },
   {
     "name": "Balloon",
@@ -74,7 +123,16 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "balloon"
+    "key": "balloon",
+    "speed": 60,
+    "hitPoints": 1050,
+    "hitSpeed": 3000,
+    "damage": 600,
+    "deathDamage": 205,
+    "range": 500,
+    "count": 1,
+    "targetsBuilding": true,
+    "airTroop": true
   },
   {
     "name": "Witch",
@@ -85,7 +143,20 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "witch"
+    "key": "witch",
+    "speed": 60,
+    "hitPoints": 613,
+    "hitSpeed": 1000,
+    "damage": 52,
+    "range": 5000,
+    "splashArea": 1100,
+    "groundDamage": true,
+    "count": 1,
+    "airDamage": true,
+    "spawn": 26000010,
+    "spawnCount": 3,
+    "spawnTime": 4700,
+    "knockBack": true
   },
   {
     "name": "Barbarians",
@@ -96,7 +167,15 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "barbarians"
+    "key": "barbarians",
+    "speed": 60,
+    "hitPoints": 300,
+    "hitSpeed": 1400,
+    "damage": 75,
+    "range": 700,
+    "groundDamage": true,
+    "count": 4,
+    "knockBack": true
   },
   {
     "name": "Golem",
@@ -107,7 +186,27 @@
     },
     "type": "Troop",
     "elixir": 8,
-    "key": "golem"
+    "key": "golem",
+    "speed": 45,
+    "hitPoints": 3200,
+    "hitSpeed": 2500,
+    "damage": 195,
+    "range": 750,
+    "deathDamage": 195,
+    "count": 1,
+    "targetsBuilding": true,
+    "deathSpawn": {
+      "name": "golemite",
+      "speed": 45,
+      "hitPoints": 650,
+      "hitSpeed": 2500,
+      "damage": 40,
+      "range": 250,
+      "targetsBuilding": true,
+      "count": 2,
+      "deathDamage": 40,
+      "knockBack": true
+    }
   },
   {
     "name": "Skeletons",
@@ -118,7 +217,15 @@
     },
     "type": "Troop",
     "elixir": 1,
-    "key": "skeletons"
+    "key": "skeletons",
+    "speed": 90,
+    "hitPoints": 32,
+    "hitSpeed": 1000,
+    "damage": 32,
+    "range": 500,
+    "groundDamage": true,
+    "count": 3,
+    "knockBack": true
   },
   {
     "name": "Valkyrie",
@@ -129,7 +236,16 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "valkyrie"
+    "key": "valkyrie",
+    "speed": 60,
+    "hitPoints": 940,
+    "hitSpeed": 1400,
+    "damage": 126,
+    "range": 1000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "splashArea": 2000
   },
   {
     "name": "Skeleton Army",
@@ -140,7 +256,15 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "skeleton-army"
+    "key": "skeleton-army",
+    "speed": 90,
+    "hitPoints": 32,
+    "hitSpeed": 1000,
+    "damage": 32,
+    "range": 500,
+    "groundDamage": true,
+    "count": 14,
+    "knockBack": true
   },
   {
     "name": "Bomber",
@@ -151,7 +275,16 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "bomber"
+    "key": "bomber",
+    "speed": 60,
+    "hitPoints": 147,
+    "hitSpeed": 1900,
+    "damage": 128,
+    "range": 5000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "splashArea": 1500
   },
   {
     "name": "Musketeer",
@@ -162,7 +295,16 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "musketeer"
+    "key": "musketeer",
+    "speed": 60,
+    "hitPoints": 340,
+    "hitSpeed": 1100,
+    "damage": 100,
+    "range": 6000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "airDamage": true
   },
   {
     "name": "Baby Dragon",
@@ -173,7 +315,18 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "baby-dragon"
+    "key": "baby-dragon",
+    "speed": 90,
+    "hitPoints": 800,
+    "hitSpeed": 1600,
+    "damage": 100,
+    "range": 3500,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "airTroop": true,
+    "airDamage": true,
+    "splashArea": 1200
   },
   {
     "name": "Prince",
@@ -184,7 +337,16 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "prince"
+    "key": "prince",
+    "speed": 60,
+    "chargeSpeedMultiplier": 200,
+    "hitPoints": 1155,
+    "hitSpeed": 1400,
+    "damage": 245,
+    "chargeDamage": 490,
+    "range": 1850,
+    "groundDamage": true,
+    "count": 1
   },
   {
     "name": "Wizard",
@@ -195,7 +357,17 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "wizard"
+    "key": "wizard",
+    "speed": 60,
+    "hitPoints": 340,
+    "hitSpeed": 1400,
+    "damage": 133,
+    "range": 5500,
+    "groundDamage": true,
+    "airDamage": true,
+    "splashArea": 1500,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Mini P.E.K.K.A",
@@ -206,7 +378,15 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "mini-pekka"
+    "key": "mini-pekka",
+    "speed": 90,
+    "hitPoints": 642,
+    "hitSpeed": 1800,
+    "damage": 340,
+    "range": 1050,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Spear Goblins",
@@ -217,7 +397,16 @@
     },
     "type": "Troop",
     "elixir": 2,
-    "key": "spear-goblins"
+    "key": "spear-goblins",
+    "speed": 120,
+    "hitPoints": 52,
+    "hitSpeed": 1700,
+    "damage": 32,
+    "range": 5000,
+    "groundDamage": true,
+    "airDamage": true,
+    "count": 3,
+    "knockBack": true
   },
   {
     "name": "Giant Skeleton",
@@ -228,7 +417,15 @@
     },
     "type": "Troop",
     "elixir": 6,
-    "key": "giant-skeleton"
+    "key": "giant-skeleton",
+    "speed": 60,
+    "hitPoints": 2100,
+    "hitSpeed": 1500,
+    "damage": 130,
+    "range": 800,
+    "groundDamage": true,
+    "count": 1,
+    "deathDamage": 720
   },
   {
     "name": "Hog Rider",
@@ -239,7 +436,15 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "hog-rider"
+    "key": "hog-rider",
+    "speed": 120,
+    "hitPoints": 800,
+    "hitSpeed": 1600,
+    "damage": 150,
+    "range": 800,
+    "count": 1,
+    "targetsBuilding": true,
+    "knockBack": true
   },
   {
     "name": "Minion Horde",
@@ -250,7 +455,17 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "minion-horde"
+    "key": "minion-horde",
+    "speed": 90,
+    "hitPoints": 90,
+    "hitSpeed": 1000,
+    "damage": 40,
+    "range": 2000,
+    "groundDamage": true,
+    "count": 6,
+    "airTroop": true,
+    "airDamage": true,
+    "knockBack": true
   },
   {
     "name": "Ice Wizard",
@@ -261,7 +476,18 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "ice-wizard"
+    "key": "ice-wizard",
+    "speed": 60,
+    "hitPoints": 665,
+    "hitSpeed": 1700,
+    "damage": 69,
+    "range": 5500,
+    "groundDamage": true,
+    "airDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "boostUp": -350,
+    "splashArea": 1000
   },
   {
     "name": "Royal Giant",
@@ -272,7 +498,14 @@
     },
     "type": "Troop",
     "elixir": 6,
-    "key": "royal-giant"
+    "key": "royal-giant",
+    "speed": 45,
+    "hitPoints": 1200,
+    "hitSpeed": 1700,
+    "damage": 75,
+    "range": 6500,
+    "targetsBuilding": true,
+    "count": 1
   },
   {
     "name": "Guards",
@@ -283,7 +516,16 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "guards"
+    "key": "guards",
+    "speed": 90,
+    "hitPoints": 68,
+    "hitSpeed": 1100,
+    "damage": 68,
+    "range": 1600,
+    "groundDamage": true,
+    "count": 3,
+    "knockBack": true,
+    "shield": 150
   },
   {
     "name": "Princess",
@@ -294,7 +536,17 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "princess"
+    "key": "princess",
+    "speed": 60,
+    "hitPoints": 216,
+    "hitSpeed": 3000,
+    "damage": 140,
+    "range": 9000,
+    "splashArea": 2000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "airDamage": true
   },
   {
     "name": "Dark Prince",
@@ -305,7 +557,19 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "dark-prince"
+    "key": "dark-prince",
+    "speed": 60,
+    "hitPoints": 775,
+    "hitSpeed": 1300,
+    "damage": 155,
+    "chargeDamage": 310,
+    "chargeSpeedMultiplier": 200,
+    "splashArea": 1000,
+    "range": 1050,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "shield": 150
   },
   {
     "name": "Three Musketeers",
@@ -316,7 +580,16 @@
     },
     "type": "Troop",
     "elixir": 9,
-    "key": "three-musketeers"
+    "key": "three-musketeers",
+    "speed": 60,
+    "hitPoints": 340,
+    "hitSpeed": 1100,
+    "damage": 100,
+    "range": 6000,
+    "groundDamage": true,
+    "count": 3,
+    "knockBack": true,
+    "airDamage": true
   },
   {
     "name": "Lava Hound",
@@ -327,7 +600,26 @@
     },
     "type": "Troop",
     "elixir": 7,
-    "key": "lava-hound"
+    "key": "lava-hound",
+    "speed": 45,
+    "hitPoints": 3150,
+    "hitSpeed": 1300,
+    "damage": 45,
+    "range": 2000,
+    "count": 1,
+    "targetsBuilding": true,
+    "deathSpawn": {
+      "name": "Lava Pups",
+      "speed": 60,
+      "hitPoints": 179,
+      "hitSpeed": 1000,
+      "damage": 45,
+      "range": 2000,
+      "groundDamage": true,
+      "airDamage": true,
+      "count": 6,
+      "knockBack": true
+    }
   },
   {
     "name": "Ice Spirit",
@@ -338,7 +630,19 @@
     },
     "type": "Troop",
     "elixir": 1,
-    "key": "ice-spirit"
+    "key": "ice-spirit",
+    "speed": 120,
+    "hitPoints": 90,
+    "hitSpeed": 300,
+    "damage": 43,
+    "range": 2500,
+    "groundDamage": true,
+    "airDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "splashArea": 1500,
+    "freezeTime": 1000,
+    "attackOnce": true
   },
   {
     "name": "Fire Spirits",
@@ -349,7 +653,18 @@
     },
     "type": "Troop",
     "elixir": 2,
-    "key": "fire-spirits"
+    "key": "fire-spirits",
+    "speed": 120,
+    "hitPoints": 43,
+    "hitSpeed": 300,
+    "damage": 84,
+    "range": 2000,
+    "groundDamage": true,
+    "airDamage": true,
+    "attackOnce": true,
+    "count": 3,
+    "knockBack": true,
+    "splashArea": 1500
   },
   {
     "name": "Miner",
@@ -360,7 +675,17 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "miner"
+    "key": "miner",
+    "speed": 90,
+    "hitPoints": 1000,
+    "hitSpeed": 1200,
+    "damage": 160,
+    "range": 1300,
+    "crownDamage": 64,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "spawnFreedom": true
   },
   {
     "name": "Sparky",
@@ -371,7 +696,15 @@
     },
     "type": "Troop",
     "elixir": 6,
-    "key": "sparky"
+    "key": "sparky",
+    "speed": 45,
+    "hitPoints": 1200,
+    "hitSpeed": 4000,
+    "damage": 1100,
+    "range": 4500,
+    "groundDamage": true,
+    "count": 1,
+    "splashArea": 1800
   },
   {
     "name": "Bowler",
@@ -382,7 +715,17 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "bowler"
+    "key": "bowler",
+    "speed": 45,
+    "hitPoints": 1200,
+    "hitSpeed": 2500,
+    "damage": 180,
+    "range": 5000,
+    "groundDamage": true,
+    "count": 1,
+    "canKnockBack": true,
+    "splashArea": 1800,
+    "projectileRange": 6000
   },
   {
     "name": "Lumberjack",
@@ -393,7 +736,16 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "lumberjack"
+    "key": "lumberjack",
+    "speed": 120,
+    "hitPoints": 1060,
+    "hitSpeed": 700,
+    "damage": 200,
+    "range": 700,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "deathSpawn": 28000002
   },
   {
     "name": "Battle Ram",
@@ -404,7 +756,29 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "battle-ram"
+    "key": "battle-ram",
+    "speed": 60,
+    "hitPoints": 430,
+    "hitSpeed": 400,
+    "damage": 140,
+    "chargeDamage": 280,
+    "chargeSpeedMultiplier": 200,
+    "range": 500,
+    "attackOnce": true,
+    "count": 1,
+    "knockBack": true,
+    "targetsBuilding": true,
+    "deathSpawn": {
+      "name": "Barbarian",
+      "speed": 60,
+      "hitPoints": 300,
+      "hitSpeed": 1400,
+      "damage": 75,
+      "range": 700,
+      "groundDamage": true,
+      "count": 2,
+      "knockBack": true
+    }
   },
   {
     "name": "Inferno Dragon",
@@ -415,7 +789,17 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "inferno-dragon"
+    "key": "inferno-dragon",
+    "speed": 60,
+    "hitPoints": 1070,
+    "hitSpeed": 400,
+    "damage": 30,
+    "damageUpto": 350,
+    "range": 4000,
+    "groundDamage": true,
+    "airDamage": true,
+    "airTroop": true,
+    "count": 1
   },
   {
     "name": "Ice Golem",
@@ -426,7 +810,19 @@
     },
     "type": "Troop",
     "elixir": 2,
-    "key": "ice-golem"
+    "key": "ice-golem",
+    "speed": 45,
+    "hitPoints": 565,
+    "hitSpeed": 2500,
+    "damage": 40,
+    "deathDamage": 40,
+    "range": 750,
+    "targetsBuilding": true,
+    "count": 1,
+    "knockBack": true,
+    "deathSpawn": {
+      "boostUp": -350
+    }
   },
   {
     "name": "Mega Minion",
@@ -437,7 +833,17 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "mega-minion"
+    "key": "mega-minion",
+    "speed": 60,
+    "hitPoints": 395,
+    "hitSpeed": 1600,
+    "damage": 147,
+    "range": 2000,
+    "groundDamage": true,
+    "airDamage": true,
+    "airTroop": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Dart Goblin",
@@ -448,7 +854,16 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "dart-goblin"
+    "key": "dart-goblin",
+    "speed": 120,
+    "hitPoints": 123,
+    "hitSpeed": 650,
+    "damage": 55,
+    "range": 6500,
+    "groundDamage": true,
+    "airDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Goblin Gang",
@@ -459,7 +874,30 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "goblin-gang"
+    "key": "goblin-gang",
+    "mixed": [
+      {
+        "speed": 120,
+        "hitPoints": 79,
+        "hitSpeed": 1100,
+        "damage": 47,
+        "range": 500,
+        "groundDamage": true,
+        "count": 3,
+        "knockBack": true
+      },
+      {
+        "speed": 120,
+        "hitPoints": 52,
+        "hitSpeed": 1700,
+        "damage": 32,
+        "range": 5000,
+        "groundDamage": true,
+        "airDamage": true,
+        "count": 2,
+        "knockBack": true
+      }
+    ]
   },
   {
     "name": "Electro Wizard",
@@ -470,7 +908,19 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "electro-wizard"
+    "key": "electro-wizard",
+    "speed": 90,
+    "hitPoints": 590,
+    "hitSpeed": 1800,
+    "damage": 96,
+    "range": 5000,
+    "groundDamage": true,
+    "airDamage": true,
+    "multiTarget": 2,
+    "stunDuration": 500,
+    "count": 1,
+    "knockBack": true,
+    "spawnDamage": 75
   },
   {
     "name": "Elite Barbarians",
@@ -481,7 +931,15 @@
     },
     "type": "Troop",
     "elixir": 6,
-    "key": "elite-barbarians"
+    "key": "elite-barbarians",
+    "speed": 120,
+    "hitPoints": 458,
+    "hitSpeed": 1500,
+    "damage": 120,
+    "range": 1000,
+    "groundDamage": true,
+    "count": 2,
+    "knockBack": true
   },
   {
     "name": "Hunter",
@@ -492,7 +950,18 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "hunter"
+    "key": "hunter",
+    "speed": 60,
+    "hitPoints": 524,
+    "hitSpeed": 2200,
+    "damage": 52,
+    "multiTarget": 10,
+    "range": 4000,
+    "projectileRange": 6500,
+    "groundDamage": true,
+    "airDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Executioner",
@@ -503,7 +972,18 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "executioner"
+    "key": "executioner",
+    "speed": 60,
+    "hitPoints": 760,
+    "hitSpeed": 900,
+    "damage": 212,
+    "range": 4500,
+    "projectileRange": 6500,
+    "splashArea": 1000,
+    "groundDamage": true,
+    "AirDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Bandit",
@@ -514,7 +994,16 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "bandit"
+    "key": "bandit",
+    "speed": 90,
+    "hitPoints": 780,
+    "hitSpeed": 1000,
+    "damage": 160,
+    "chargeDamage": 320,
+    "range": 750,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Royal Recruits",
@@ -525,7 +1014,16 @@
     },
     "type": "Troop",
     "elixir": 8,
-    "key": "royal-recruits"
+    "key": "royal-recruits",
+    "speed": 60,
+    "hitPoints": 208,
+    "shield": 94,
+    "hitSpeed": 1200,
+    "damage": 43,
+    "range": 1600,
+    "groundDamage": true,
+    "count": 6,
+    "knockBack": true
   },
   {
     "name": "Night Witch",
@@ -536,7 +1034,31 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "night-witch"
+    "key": "night-witch",
+    "speed": 60,
+    "hitPoints": 750,
+    "hitSpeed": 1500,
+    "damage": 260,
+    "range": 1650,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "spawn": 2600049,
+    "spawnCount": 2,
+    "spawnSpeed": 7000,
+    "deathSpawn": {
+      "name": "Bats",
+      "speed": 120,
+      "hitPoints": 52,
+      "hitSpeed": 1700,
+      "damage": 32,
+      "range": 5000,
+      "groundDamage": true,
+      "airDamage": true,
+      "count": 2,
+      "knockBack": true,
+      "airTroop": true
+    }
   },
   {
     "name": "Bats",
@@ -547,7 +1069,17 @@
     },
     "type": "Troop",
     "elixir": 2,
-    "key": "bats"
+    "key": "bats",
+    "speed": 120,
+    "hitPoints": 32,
+    "hitSpeed": 1100,
+    "damage": 32,
+    "range": 1200,
+    "groundDamage": true,
+    "airDamage": true,
+    "airTroop": true,
+    "count": 5,
+    "knockBack": true
   },
   {
     "name": "Royal Ghost",
@@ -558,7 +1090,16 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "royal-ghost"
+    "key": "royal-ghost",
+    "speed": 90,
+    "hitPoints": 1100,
+    "hitSpeed": 1800,
+    "damage": 216,
+    "range": 1200,
+    "splashArea": 800,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Zappies",
@@ -569,7 +1110,17 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "zappies"
+    "key": "zappies",
+    "speed": 60,
+    "hitPoints": 250,
+    "hitSpeed": 1600,
+    "damage": 40,
+    "range": 4500,
+    "groundDamage": true,
+    "count": 3,
+    "airDamage": true,
+    "stunDuration": 500,
+    "knockBack": true
   },
   {
     "name": "Rascals",
@@ -580,7 +1131,32 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "rascals"
+    "key": "rascals",
+    "mixed": [
+      {
+        "name": "Rascal Boy",
+        "speed": 60,
+        "hitPoints": 715,
+        "hitSpeed": 1300,
+        "damage": 52,
+        "range": 1000,
+        "groundDamage": true,
+        "count": 1,
+        "knockBack": true
+      },
+      {
+        "name": "Rascal Girls",
+        "speed": 60,
+        "hitPoints": 102,
+        "hitSpeed": 1100,
+        "damage": 52,
+        "range": 5000,
+        "groundDamage": true,
+        "airDamage": true,
+        "count": 2,
+        "knockBack": true
+      }
+    ]
   },
   {
     "name": "Cannon Cart",
@@ -591,7 +1167,16 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "cannon-cart"
+    "key": "cannon-cart",
+    "speed": 90,
+    "hitPoints": 550,
+    "hitSpeed": 1200,
+    "damage": 153,
+    "range": 5500,
+    "shield": 550,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Mega Knight",
@@ -602,7 +1187,17 @@
     },
     "type": "Troop",
     "elixir": 7,
-    "key": "mega-knight"
+    "key": "mega-knight",
+    "speed": 60,
+    "hitPoints": 3300,
+    "hitSpeed": 1800,
+    "damage": 222,
+    "range": 1000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "chargeDamage": 444,
+    "spawnDamage": 444
   },
   {
     "name": "Skeleton Barrel",
@@ -613,7 +1208,25 @@
     },
     "type": "Troop",
     "elixir": 3,
-    "key": "skeleton-barrel"
+    "key": "skeleton-barrel",
+    "speed": 60,
+    "hitPoints": 300,
+    "hitSpeed": 300,
+    "deathDamage": 32,
+    "range": 350,
+    "targetsBuilding": true,
+    "count": 1,
+    "knockBack": true,
+    "deathSpawn": {
+      "speed": 90,
+      "hitPoints": 32,
+      "hitSpeed": 1000,
+      "damage": 32,
+      "range": 500,
+      "groundDamage": true,
+      "count": 7,
+      "knockBack": true
+    }
   },
   {
     "name": "Flying Machine",
@@ -624,7 +1237,17 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "flying-machine"
+    "key": "flying-machine",
+    "speed": 90,
+    "hitPoints": 290,
+    "hitSpeed": 1000,
+    "damage": 81,
+    "range": 6000,
+    "groundDamage": true,
+    "airDamage": true,
+    "airTroop": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Royal Hogs",
@@ -635,7 +1258,15 @@
     },
     "type": "Troop",
     "elixir": 5,
-    "key": "royal-hogs"
+    "key": "royal-hogs",
+    "speed": 120,
+    "hitPoints": 395,
+    "hitSpeed": 1100,
+    "damage": 34,
+    "range": 750,
+    "targetsBuilding": true,
+    "count": 4,
+    "knockBack": true
   },
   {
     "name": "Magic Archer",
@@ -646,7 +1277,18 @@
     },
     "type": "Troop",
     "elixir": 4,
-    "key": "magic-archer"
+    "key": "magic-archer",
+    "speed": 60,
+    "hitPoints": 490,
+    "hitSpeed": 1000,
+    "damage": 96,
+    "range": 7000,
+    "projectileRange": 11000,
+    "groundDamage": true,
+    "airDamage": true,
+    "splashArea": 300,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Cannon",
