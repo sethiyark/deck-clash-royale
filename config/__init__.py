@@ -1,3 +1,7 @@
+from utils.mongo import MongoUtils
+
+DB = MongoUtils('deckCR')
+
 HQ_TAG = ' GQQQY9'
 VIBE_TAG = ' 2YGJ8U0Q'
 INDIA_ID = '57000113'
