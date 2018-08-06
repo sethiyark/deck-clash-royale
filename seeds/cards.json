@@ -1357,7 +1357,14 @@
     },
     "type": "Building",
     "elixir": 3,
-    "key": "cannon"
+    "key": "cannon",
+    "deployTime": 1000,
+    "hitPoints": 350,
+    "damage": 60,
+    "groundDamage": true,
+    "hitSpeed": 800,
+    "range": 5500,
+    "lifeTime": 30000
   },
   {
     "name": "Goblin Hut",
@@ -1368,7 +1375,13 @@
     },
     "type": "Building",
     "elixir": 5,
-    "key": "goblin-hut"
+    "key": "goblin-hut",
+    "deployTime": 1000,
+    "hitPoints": 735,
+    "lifeTime": 50000,
+    "spawn": 26000019,
+    "spawnCount": 1,
+    "spawnTime": 5050
   },
   {
     "name": "Mortar",
@@ -1379,7 +1392,15 @@
     },
     "type": "Building",
     "elixir": 4,
-    "key": "mortar"
+    "key": "mortar",
+    "deployTime": 3500,
+    "hitPoints": 575,
+    "damage": 104,
+    "splashArea": 2000,
+    "groundDamage": true,
+    "hitSpeed": 5000,
+    "range": 11500,
+    "lifeTime": 30000
   },
   {
     "name": "Inferno Tower",
@@ -1390,7 +1411,16 @@
     },
     "type": "Building",
     "elixir": 5,
-    "key": "inferno-tower"
+    "key": "inferno-tower",
+    "deployTime": 1000,
+    "hitPoints": 800,
+    "damage": 20,
+    "damageUpto": 400,
+    "groundDamage": true,
+    "airDamage": true,
+    "hitSpeed": 400,
+    "range": 6000,
+    "lifeTime": 40000
   },
   {
     "name": "Bomb Tower",
@@ -1401,7 +1431,15 @@
     },
     "type": "Building",
     "elixir": 5,
-    "key": "bomb-tower"
+    "key": "bomb-tower",
+    "deployTime": 3500,
+    "hitPoints": 950,
+    "damage": 100,
+    "splashArea": 1500,
+    "groundDamage": true,
+    "hitSpeed": 1600,
+    "range": 6000,
+    "lifeTime": 40000
   },
   {
     "name": "Barbarian Hut",
@@ -1412,7 +1450,13 @@
     },
     "type": "Building",
     "elixir": 7,
-    "key": "barbarian-hut"
+    "key": "barbarian-hut",
+    "deployTime": 1000,
+    "hitPoints": 1100,
+    "lifeTime": 60000,
+    "spawn": 26000008,
+    "spawnCount": 2,
+    "spawnTime": 14000
   },
   {
     "name": "Tesla",
