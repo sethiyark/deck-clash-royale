@@ -2,436 +2,1600 @@
   {
     "name": "Knight",
     "id": 26000000,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "knight",
+    "speed": 60,
+    "hitPoints": 637,
+    "hitSpeed": 1200,
+    "damage": 75,
+    "range": 1000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Archers",
     "id": 26000001,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/W4Hmp8MTSdXANN8KdblbtHwtsbt0o749BbxNqmJYfA8.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "archers",
+    "speed": 60,
+    "hitPoints": 120,
+    "hitSpeed": 1200,
+    "damage": 41,
+    "range": 5000,
+    "groundDamage": true,
+    "count": 2,
+    "airDamage": true,
+    "knockBack": true
   },
   {
     "name": "Goblins",
     "id": 26000002,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/X_DQUye_OaS3QN6VC9CPw05Fit7wvSm3XegXIXKP--0.png"
+    },
+    "type": "Troop",
+    "elixir": 2,
+    "key": "goblins",
+    "speed": 120,
+    "hitPoints": 79,
+    "hitSpeed": 1100,
+    "damage": 47,
+    "range": 500,
+    "groundDamage": true,
+    "count": 3,
+    "knockBack": true
   },
   {
     "name": "Giant",
     "id": 26000003,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Axr4ox5_b7edmLsoHxBX3vmgijAIibuF6RImTbqLlXE.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "giant",
+    "speed": 45,
+    "hitPoints": 1900,
+    "hitSpeed": 1500,
+    "damage": 120,
+    "range": 1250,
+    "count": 1,
+    "targetsBuilding": true
   },
   {
     "name": "P.E.K.K.A",
     "id": 26000004,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/MlArURKhn_zWAZY-Xj1qIRKLVKquarG25BXDjUQajNs.png"
+    },
+    "type": "Troop",
+    "elixir": 7,
+    "key": "pekka",
+    "speed": 45,
+    "hitPoints": 2600,
+    "hitSpeed": 1800,
+    "damage": 510,
+    "range": 750,
+    "groundDamage": true,
+    "count": 1
   },
   {
     "name": "Minions",
     "id": 26000005,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/yHGpoEnmUWPGV_hBbhn-Kk-Bs838OjGzWzJJlQpQKQA.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "minions",
+    "speed": 90,
+    "hitPoints": 90,
+    "hitSpeed": 1000,
+    "damage": 40,
+    "range": 2000,
+    "groundDamage": true,
+    "count": 3,
+    "airTroop": true,
+    "airDamage": true,
+    "knockBack": true
   },
   {
     "name": "Balloon",
     "id": 26000006,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "balloon",
+    "speed": 60,
+    "hitPoints": 1050,
+    "hitSpeed": 3000,
+    "damage": 600,
+    "deathDamage": 205,
+    "range": 500,
+    "count": 1,
+    "targetsBuilding": true,
+    "airTroop": true
   },
   {
     "name": "Witch",
     "id": 26000007,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "witch",
+    "speed": 60,
+    "hitPoints": 613,
+    "hitSpeed": 1000,
+    "damage": 52,
+    "range": 5000,
+    "splashArea": 1100,
+    "groundDamage": true,
+    "count": 1,
+    "airDamage": true,
+    "spawn": 26000010,
+    "spawnCount": 3,
+    "spawnTime": 4700,
+    "knockBack": true
   },
   {
     "name": "Barbarians",
     "id": 26000008,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/TvJsuu2S4yhyk1jVYUAQwdKOnW4U77KuWWOTPOWnwfI.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "barbarians",
+    "speed": 60,
+    "hitPoints": 300,
+    "hitSpeed": 1400,
+    "damage": 75,
+    "range": 700,
+    "groundDamage": true,
+    "count": 4,
+    "knockBack": true
   },
   {
     "name": "Golem",
     "id": 26000009,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/npdmCnET7jmVjJvjJQkFnNSNnDxYHDBigbvIAloFMds.png"
+    },
+    "type": "Troop",
+    "elixir": 8,
+    "key": "golem",
+    "speed": 45,
+    "hitPoints": 3200,
+    "hitSpeed": 2500,
+    "damage": 195,
+    "range": 750,
+    "deathDamage": 195,
+    "count": 1,
+    "targetsBuilding": true,
+    "deathSpawn": {
+      "name": "golemite",
+      "speed": 45,
+      "hitPoints": 650,
+      "hitSpeed": 2500,
+      "damage": 40,
+      "range": 250,
+      "targetsBuilding": true,
+      "count": 2,
+      "deathDamage": 40,
+      "knockBack": true
+    }
   },
   {
     "name": "Skeletons",
     "id": 26000010,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/oO7iKMU5m0cdxhYPZA3nWQiAUh2yoGgdThLWB1rVSec.png"
+    },
+    "type": "Troop",
+    "elixir": 1,
+    "key": "skeletons",
+    "speed": 90,
+    "hitPoints": 32,
+    "hitSpeed": 1000,
+    "damage": 32,
+    "range": 500,
+    "groundDamage": true,
+    "count": 3,
+    "knockBack": true
   },
   {
     "name": "Valkyrie",
     "id": 26000011,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "valkyrie",
+    "speed": 60,
+    "hitPoints": 940,
+    "hitSpeed": 1400,
+    "damage": 126,
+    "range": 1000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "splashArea": 2000
   },
   {
     "name": "Skeleton Army",
     "id": 26000012,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/fAOToOi1pRy7svN2xQS6mDkhQw2pj9m_17FauaNqyl4.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "skeleton-army",
+    "speed": 90,
+    "hitPoints": 32,
+    "hitSpeed": 1000,
+    "damage": 32,
+    "range": 500,
+    "groundDamage": true,
+    "count": 14,
+    "knockBack": true
   },
   {
     "name": "Bomber",
     "id": 26000013,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/12n1CesxKIcqVYntjxcF36EFA-ONw7Z-DoL0_rQrbdo.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "bomber",
+    "speed": 60,
+    "hitPoints": 147,
+    "hitSpeed": 1900,
+    "damage": 128,
+    "range": 5000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "splashArea": 1500
   },
   {
     "name": "Musketeer",
     "id": 26000014,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "musketeer",
+    "speed": 60,
+    "hitPoints": 340,
+    "hitSpeed": 1100,
+    "damage": 100,
+    "range": 6000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "airDamage": true
   },
   {
     "name": "Baby Dragon",
     "id": 26000015,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/cjC9n4AvEZJ3urkVh-rwBkJ-aRSsydIMqSAV48hAih0.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "baby-dragon",
+    "speed": 90,
+    "hitPoints": 800,
+    "hitSpeed": 1600,
+    "damage": 100,
+    "range": 3500,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "airTroop": true,
+    "airDamage": true,
+    "splashArea": 1200
   },
   {
     "name": "Prince",
     "id": 26000016,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/3JntJV62aY0G1Qh6LIs-ek-0ayeYFY3VItpG7cb9I60.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "prince",
+    "speed": 60,
+    "chargeSpeedMultiplier": 200,
+    "hitPoints": 1155,
+    "hitSpeed": 1400,
+    "damage": 245,
+    "chargeDamage": 490,
+    "range": 1850,
+    "groundDamage": true,
+    "count": 1
   },
   {
     "name": "Wizard",
     "id": 26000017,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Mej7vnv4H_3p_8qPs_N6_GKahy6HDr7pU7i9eTHS84U.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "wizard",
+    "speed": 60,
+    "hitPoints": 340,
+    "hitSpeed": 1400,
+    "damage": 133,
+    "range": 5500,
+    "groundDamage": true,
+    "airDamage": true,
+    "splashArea": 1500,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Mini P.E.K.K.A",
     "id": 26000018,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Fmltc4j3Ve9vO_xhHHPEO3PRP3SmU2oKp2zkZQHRZT4.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "mini-pekka",
+    "speed": 90,
+    "hitPoints": 642,
+    "hitSpeed": 1800,
+    "damage": 340,
+    "range": 1050,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Spear Goblins",
     "id": 26000019,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/FSDFotjaXidI4ku_WFpVCTWS1hKGnFh1sxX0lxM43_E.png"
+    },
+    "type": "Troop",
+    "elixir": 2,
+    "key": "spear-goblins",
+    "speed": 120,
+    "hitPoints": 52,
+    "hitSpeed": 1700,
+    "damage": 32,
+    "range": 5000,
+    "groundDamage": true,
+    "airDamage": true,
+    "count": 3,
+    "knockBack": true
   },
   {
     "name": "Giant Skeleton",
     "id": 26000020,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/0p0gd0XaVRu1Hb1iSG1hTYbz2AN6aEiZnhaAib5O8Z8.png"
+    },
+    "type": "Troop",
+    "elixir": 6,
+    "key": "giant-skeleton",
+    "speed": 60,
+    "hitPoints": 2100,
+    "hitSpeed": 1500,
+    "damage": 130,
+    "range": 800,
+    "groundDamage": true,
+    "count": 1,
+    "deathDamage": 720
   },
   {
     "name": "Hog Rider",
     "id": 26000021,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Ubu0oUl8tZkusnkZf8Xv9Vno5IO29Y-jbZ4fhoNJ5oc.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "hog-rider",
+    "speed": 120,
+    "hitPoints": 800,
+    "hitSpeed": 1600,
+    "damage": 150,
+    "range": 800,
+    "count": 1,
+    "targetsBuilding": true,
+    "knockBack": true
   },
   {
     "name": "Minion Horde",
     "id": 26000022,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "minion-horde",
+    "speed": 90,
+    "hitPoints": 90,
+    "hitSpeed": 1000,
+    "damage": 40,
+    "range": 2000,
+    "groundDamage": true,
+    "count": 6,
+    "airTroop": true,
+    "airDamage": true,
+    "knockBack": true
   },
   {
     "name": "Ice Wizard",
     "id": 26000023,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/W3dkw0HTw9n1jB-zbknY2w3wHuyuLxSRIAV5fUT1SEY.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "ice-wizard",
+    "speed": 60,
+    "hitPoints": 665,
+    "hitSpeed": 1700,
+    "damage": 69,
+    "range": 5500,
+    "groundDamage": true,
+    "airDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "boostUp": -350,
+    "splashArea": 1000
   },
   {
     "name": "Royal Giant",
     "id": 26000024,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/mnlRaNtmfpQx2e6mp70sLd0ND-pKPF70Cf87_agEKg4.png"
+    },
+    "type": "Troop",
+    "elixir": 6,
+    "key": "royal-giant",
+    "speed": 45,
+    "hitPoints": 1200,
+    "hitSpeed": 1700,
+    "damage": 75,
+    "range": 6500,
+    "targetsBuilding": true,
+    "count": 1
   },
   {
     "name": "Guards",
     "id": 26000025,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/1ArKfLJxYo6_NU_S9cAeIrfbXqWH0oULVJXedxBXQlU.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "guards",
+    "speed": 90,
+    "hitPoints": 68,
+    "hitSpeed": 1100,
+    "damage": 68,
+    "range": 1600,
+    "groundDamage": true,
+    "count": 3,
+    "knockBack": true,
+    "shield": 150
   },
   {
     "name": "Princess",
     "id": 26000026,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "princess",
+    "speed": 60,
+    "hitPoints": 216,
+    "hitSpeed": 3000,
+    "damage": 140,
+    "range": 9000,
+    "splashArea": 2000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "airDamage": true
   },
   {
     "name": "Dark Prince",
     "id": 26000027,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/M7fXlrKXHu2IvpSGpk36kXVstslbR08Bbxcy0jQcln8.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "dark-prince",
+    "speed": 60,
+    "hitPoints": 775,
+    "hitSpeed": 1300,
+    "damage": 155,
+    "chargeDamage": 310,
+    "chargeSpeedMultiplier": 200,
+    "splashArea": 1000,
+    "range": 1050,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "shield": 150
   },
   {
     "name": "Three Musketeers",
     "id": 26000028,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/_J2GhbkX3vswaFk1wG-dopwiHyNc_YiPhwroiKF3Mek.png"
+    },
+    "type": "Troop",
+    "elixir": 9,
+    "key": "three-musketeers",
+    "speed": 60,
+    "hitPoints": 340,
+    "hitSpeed": 1100,
+    "damage": 100,
+    "range": 6000,
+    "groundDamage": true,
+    "count": 3,
+    "knockBack": true,
+    "airDamage": true
   },
   {
     "name": "Lava Hound",
     "id": 26000029,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/unicRQ975sBY2oLtfgZbAI56ZvaWz7azj-vXTLxc0r8.png"
+    },
+    "type": "Troop",
+    "elixir": 7,
+    "key": "lava-hound",
+    "speed": 45,
+    "hitPoints": 3150,
+    "hitSpeed": 1300,
+    "damage": 45,
+    "range": 2000,
+    "count": 1,
+    "targetsBuilding": true,
+    "deathSpawn": {
+      "name": "Lava Pups",
+      "speed": 60,
+      "hitPoints": 179,
+      "hitSpeed": 1000,
+      "damage": 45,
+      "range": 2000,
+      "groundDamage": true,
+      "airDamage": true,
+      "count": 6,
+      "knockBack": true
+    }
   },
   {
     "name": "Ice Spirit",
     "id": 26000030,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/lv1budiafU9XmSdrDkk0NYyqASAFYyZ06CPysXKZXlA.png"
+    },
+    "type": "Troop",
+    "elixir": 1,
+    "key": "ice-spirit",
+    "speed": 120,
+    "hitPoints": 90,
+    "hitSpeed": 300,
+    "damage": 43,
+    "range": 2500,
+    "groundDamage": true,
+    "airDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "splashArea": 1500,
+    "freezeTime": 1000,
+    "attackOnce": true
   },
   {
     "name": "Fire Spirits",
     "id": 26000031,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/16-BqusVvynIgYI8_Jci3LDC-r8AI_xaIYLgXqtlmS8.png"
+    },
+    "type": "Troop",
+    "elixir": 2,
+    "key": "fire-spirits",
+    "speed": 120,
+    "hitPoints": 43,
+    "hitSpeed": 300,
+    "damage": 84,
+    "range": 2000,
+    "groundDamage": true,
+    "airDamage": true,
+    "attackOnce": true,
+    "count": 3,
+    "knockBack": true,
+    "splashArea": 1500
   },
   {
     "name": "Miner",
     "id": 26000032,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Y4yWvdwBCg2FpAZgs8T09Gy34WOwpLZW-ttL52Ae8NE.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "miner",
+    "speed": 90,
+    "hitPoints": 1000,
+    "hitSpeed": 1200,
+    "damage": 160,
+    "range": 1300,
+    "crownDamage": 64,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "spawnFreedom": true
   },
   {
     "name": "Sparky",
     "id": 26000033,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/2GKMkBrArZXgQxf2ygFjDs4VvGYPbx8F6Lj_68iVhIM.png"
+    },
+    "type": "Troop",
+    "elixir": 6,
+    "key": "sparky",
+    "speed": 45,
+    "hitPoints": 1200,
+    "hitSpeed": 4000,
+    "damage": 1100,
+    "range": 4500,
+    "groundDamage": true,
+    "count": 1,
+    "splashArea": 1800
   },
   {
     "name": "Bowler",
     "id": 26000034,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/SU4qFXmbQXWjvASxVI6z9IJuTYolx4A0MKK90sTIE88.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "bowler",
+    "speed": 45,
+    "hitPoints": 1200,
+    "hitSpeed": 2500,
+    "damage": 180,
+    "range": 5000,
+    "groundDamage": true,
+    "count": 1,
+    "canKnockBack": true,
+    "splashArea": 1800,
+    "projectileRange": 6000
   },
   {
     "name": "Lumberjack",
     "id": 26000035,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/E6RWrnCuk13xMX5OE1EQtLEKTZQV6B78d00y8PlXt6Q.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "lumberjack",
+    "speed": 120,
+    "hitPoints": 1060,
+    "hitSpeed": 700,
+    "damage": 200,
+    "range": 700,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "deathSpawn": 28000002
   },
   {
     "name": "Battle Ram",
     "id": 26000036,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/dyc50V2cplKi4H7pq1B3I36pl_sEH5DQrNHboS_dbbM.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "battle-ram",
+    "speed": 60,
+    "hitPoints": 430,
+    "hitSpeed": 400,
+    "damage": 140,
+    "chargeDamage": 280,
+    "chargeSpeedMultiplier": 200,
+    "range": 500,
+    "attackOnce": true,
+    "count": 1,
+    "knockBack": true,
+    "targetsBuilding": true,
+    "deathSpawn": {
+      "name": "Barbarian",
+      "speed": 60,
+      "hitPoints": 300,
+      "hitSpeed": 1400,
+      "damage": 75,
+      "range": 700,
+      "groundDamage": true,
+      "count": 2,
+      "knockBack": true
+    }
   },
   {
     "name": "Inferno Dragon",
     "id": 26000037,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/y5HDbKtTbWG6En6TGWU0xoVIGs1-iQpIP4HC-VM7u8A.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "inferno-dragon",
+    "speed": 60,
+    "hitPoints": 1070,
+    "hitSpeed": 400,
+    "damage": 30,
+    "damageUpto": 350,
+    "range": 4000,
+    "groundDamage": true,
+    "airDamage": true,
+    "airTroop": true,
+    "count": 1
   },
   {
     "name": "Ice Golem",
     "id": 26000038,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/r05cmpwV1o7i7FHodtZwW3fmjbXCW34IJCsDEV5cZC4.png"
+    },
+    "type": "Troop",
+    "elixir": 2,
+    "key": "ice-golem",
+    "speed": 45,
+    "hitPoints": 565,
+    "hitSpeed": 2500,
+    "damage": 40,
+    "deathDamage": 40,
+    "range": 750,
+    "targetsBuilding": true,
+    "count": 1,
+    "knockBack": true,
+    "deathSpawn": {
+      "boostUp": -350
+    }
   },
   {
     "name": "Mega Minion",
     "id": 26000039,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/-T_e4YLbuhPBKbYnBwQfXgynNpp5eOIN_0RracYwL9c.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "mega-minion",
+    "speed": 60,
+    "hitPoints": 395,
+    "hitSpeed": 1600,
+    "damage": 147,
+    "range": 2000,
+    "groundDamage": true,
+    "airDamage": true,
+    "airTroop": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Dart Goblin",
     "id": 26000040,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/BmpK3bqEAviflqHCdxxnfm-_l3pRPJw3qxHkwS55nCY.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "dart-goblin",
+    "speed": 120,
+    "hitPoints": 123,
+    "hitSpeed": 650,
+    "damage": 55,
+    "range": 6500,
+    "groundDamage": true,
+    "airDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Goblin Gang",
     "id": 26000041,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "goblin-gang",
+    "mixed": [
+      {
+        "speed": 120,
+        "hitPoints": 79,
+        "hitSpeed": 1100,
+        "damage": 47,
+        "range": 500,
+        "groundDamage": true,
+        "count": 3,
+        "knockBack": true
+      },
+      {
+        "speed": 120,
+        "hitPoints": 52,
+        "hitSpeed": 1700,
+        "damage": 32,
+        "range": 5000,
+        "groundDamage": true,
+        "airDamage": true,
+        "count": 2,
+        "knockBack": true
+      }
+    ]
   },
   {
     "name": "Electro Wizard",
     "id": 26000042,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/RsFaHgB3w6vXsTjXdPr3x8l_GbV9TbOUCvIx07prbrQ.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "electro-wizard",
+    "speed": 90,
+    "hitPoints": 590,
+    "hitSpeed": 1800,
+    "damage": 96,
+    "range": 5000,
+    "groundDamage": true,
+    "airDamage": true,
+    "multiTarget": 2,
+    "stunDuration": 500,
+    "count": 1,
+    "knockBack": true,
+    "spawnDamage": 75
   },
   {
     "name": "Elite Barbarians",
     "id": 26000043,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png"
+    },
+    "type": "Troop",
+    "elixir": 6,
+    "key": "elite-barbarians",
+    "speed": 120,
+    "hitPoints": 458,
+    "hitSpeed": 1500,
+    "damage": 120,
+    "range": 1000,
+    "groundDamage": true,
+    "count": 2,
+    "knockBack": true
   },
   {
     "name": "Hunter",
     "id": 26000044,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/VNabB1WKnYtYRSG7X_FZfnZjQDHTBs9A96OGMFmecrA.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "hunter",
+    "speed": 60,
+    "hitPoints": 524,
+    "hitSpeed": 2200,
+    "damage": 52,
+    "multiTarget": 10,
+    "range": 4000,
+    "projectileRange": 6500,
+    "groundDamage": true,
+    "airDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Executioner",
     "id": 26000045,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/9XL5BP2mqzV8kza6KF8rOxrpCZTyuGLp2l413DTjEoM.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "executioner",
+    "speed": 60,
+    "hitPoints": 760,
+    "hitSpeed": 900,
+    "damage": 212,
+    "range": 4500,
+    "projectileRange": 6500,
+    "splashArea": 1000,
+    "groundDamage": true,
+    "AirDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Bandit",
     "id": 26000046,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/QWDdXMKJNpv0go-HYaWQWP6p8uIOHjqn-zX7G0p3DyM.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "bandit",
+    "speed": 90,
+    "hitPoints": 780,
+    "hitSpeed": 1000,
+    "damage": 160,
+    "chargeDamage": 320,
+    "range": 750,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Royal Recruits",
     "id": 26000047,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/jcNyYGUiXXNz3kuz8NBkHNKNREQKraXlb_Ts7rhCIdM.png"
+    },
+    "type": "Troop",
+    "elixir": 8,
+    "key": "royal-recruits",
+    "speed": 60,
+    "hitPoints": 208,
+    "shield": 94,
+    "hitSpeed": 1200,
+    "damage": 43,
+    "range": 1600,
+    "groundDamage": true,
+    "count": 6,
+    "knockBack": true
   },
   {
     "name": "Night Witch",
     "id": 26000048,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/NpCrXDEDBBJgNv9QrBAcJmmMFbS7pe3KCY8xJ5VB18A.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "night-witch",
+    "speed": 60,
+    "hitPoints": 750,
+    "hitSpeed": 1500,
+    "damage": 260,
+    "range": 1650,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "spawn": 2600049,
+    "spawnCount": 2,
+    "spawnSpeed": 7000,
+    "deathSpawn": {
+      "name": "Bats",
+      "speed": 120,
+      "hitPoints": 52,
+      "hitSpeed": 1700,
+      "damage": 32,
+      "range": 5000,
+      "groundDamage": true,
+      "airDamage": true,
+      "count": 2,
+      "knockBack": true,
+      "airTroop": true
+    }
   },
   {
     "name": "Bats",
     "id": 26000049,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png"
+    },
+    "type": "Troop",
+    "elixir": 2,
+    "key": "bats",
+    "speed": 120,
+    "hitPoints": 32,
+    "hitSpeed": 1100,
+    "damage": 32,
+    "range": 1200,
+    "groundDamage": true,
+    "airDamage": true,
+    "airTroop": true,
+    "count": 5,
+    "knockBack": true
   },
   {
     "name": "Royal Ghost",
     "id": 26000050,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/3En2cz0ISQAaMTHY3hj3rTveFN2kJYq-H4VxvdJNvCM.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "royal-ghost",
+    "speed": 90,
+    "hitPoints": 1100,
+    "hitSpeed": 1800,
+    "damage": 216,
+    "range": 1200,
+    "splashArea": 800,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Zappies",
     "id": 26000052,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/QZfHRpLRmutZbCr5fpLnTpIp89vLI6NrAwzGZ8tHEc4.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "zappies",
+    "speed": 60,
+    "hitPoints": 250,
+    "hitSpeed": 1600,
+    "damage": 40,
+    "range": 4500,
+    "groundDamage": true,
+    "count": 3,
+    "airDamage": true,
+    "stunDuration": 500,
+    "knockBack": true
   },
   {
     "name": "Rascals",
     "id": 26000053,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/KV48DfwVHKx9XCjzBdk3daT_Eb52Me4VgjVO7WctRc4.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "rascals",
+    "mixed": [
+      {
+        "name": "Rascal Boy",
+        "speed": 60,
+        "hitPoints": 715,
+        "hitSpeed": 1300,
+        "damage": 52,
+        "range": 1000,
+        "groundDamage": true,
+        "count": 1,
+        "knockBack": true
+      },
+      {
+        "name": "Rascal Girls",
+        "speed": 60,
+        "hitPoints": 102,
+        "hitSpeed": 1100,
+        "damage": 52,
+        "range": 5000,
+        "groundDamage": true,
+        "airDamage": true,
+        "count": 2,
+        "knockBack": true
+      }
+    ]
   },
   {
     "name": "Cannon Cart",
     "id": 26000054,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/aqwxRz8HXzqlMCO4WMXNA1txynjXTsLinknqsgZLbok.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "cannon-cart",
+    "speed": 90,
+    "hitPoints": 550,
+    "hitSpeed": 1200,
+    "damage": 153,
+    "range": 5500,
+    "shield": 550,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Mega Knight",
     "id": 26000055,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png"
+    },
+    "type": "Troop",
+    "elixir": 7,
+    "key": "mega-knight",
+    "speed": 60,
+    "hitPoints": 3300,
+    "hitSpeed": 1800,
+    "damage": 222,
+    "range": 1000,
+    "groundDamage": true,
+    "count": 1,
+    "knockBack": true,
+    "chargeDamage": 444,
+    "spawnDamage": 444
   },
   {
     "name": "Skeleton Barrel",
     "id": 26000056,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/vCB4DWCcrGbTkarjcOiVz4aNDx6GWLm0yUepg9E1MGo.png"
+    },
+    "type": "Troop",
+    "elixir": 3,
+    "key": "skeleton-barrel",
+    "speed": 60,
+    "hitPoints": 300,
+    "hitSpeed": 300,
+    "deathDamage": 32,
+    "range": 350,
+    "targetsBuilding": true,
+    "count": 1,
+    "knockBack": true,
+    "deathSpawn": {
+      "speed": 90,
+      "hitPoints": 32,
+      "hitSpeed": 1000,
+      "damage": 32,
+      "range": 500,
+      "groundDamage": true,
+      "count": 7,
+      "knockBack": true
+    }
   },
   {
     "name": "Flying Machine",
     "id": 26000057,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/hzKNE3QwFcrSrDDRuVW3QY_OnrDPijSiIp-PsWgFevE.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "flying-machine",
+    "speed": 90,
+    "hitPoints": 290,
+    "hitSpeed": 1000,
+    "damage": 81,
+    "range": 6000,
+    "groundDamage": true,
+    "airDamage": true,
+    "airTroop": true,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Royal Hogs",
     "id": 26000059,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png"
+    },
+    "type": "Troop",
+    "elixir": 5,
+    "key": "royal-hogs",
+    "speed": 120,
+    "hitPoints": 395,
+    "hitSpeed": 1100,
+    "damage": 34,
+    "range": 750,
+    "targetsBuilding": true,
+    "count": 4,
+    "knockBack": true
   },
   {
     "name": "Magic Archer",
     "id": 26000062,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Avli3W7BxU9HQ2SoLiXnBgGx25FoNXUSFm7OcAk68ek.png"
+    },
+    "type": "Troop",
+    "elixir": 4,
+    "key": "magic-archer",
+    "speed": 60,
+    "hitPoints": 490,
+    "hitSpeed": 1000,
+    "damage": 96,
+    "range": 7000,
+    "projectileRange": 11000,
+    "groundDamage": true,
+    "airDamage": true,
+    "splashArea": 300,
+    "count": 1,
+    "knockBack": true
   },
   {
     "name": "Cannon",
     "id": 27000000,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/nZK1y-beLxO5vnlyUhK6-2zH2NzXJwqykcosqQ1cmZ8.png"
+    },
+    "type": "Building",
+    "elixir": 3,
+    "key": "cannon"
   },
   {
     "name": "Goblin Hut",
     "id": 27000001,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/l8ZdzzNLcwB4u7ihGgxNFQOjCT_njFuAhZr7D6PRF7E.png"
+    },
+    "type": "Building",
+    "elixir": 5,
+    "key": "goblin-hut"
   },
   {
     "name": "Mortar",
     "id": 27000002,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/lPOSw6H7YOHq2miSCrf7ZDL3ANjhJdPPDYOTujdNrVE.png"
+    },
+    "type": "Building",
+    "elixir": 4,
+    "key": "mortar"
   },
   {
     "name": "Inferno Tower",
     "id": 27000003,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/GSHY_wrooMMLET6bG_WJB8redtwx66c4i80ipi4gYOM.png"
+    },
+    "type": "Building",
+    "elixir": 5,
+    "key": "inferno-tower"
   },
   {
     "name": "Bomb Tower",
     "id": 27000004,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/rirYRyHPc97emRjoH-c1O8uZCBzPVnToaGuNGusF3TQ.png"
+    },
+    "type": "Building",
+    "elixir": 5,
+    "key": "bomb-tower"
   },
   {
     "name": "Barbarian Hut",
     "id": 27000005,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/ho0nOG2y3Ch86elHHcocQs8Fv_QNe0cFJ2CijsxABZA.png"
+    },
+    "type": "Building",
+    "elixir": 7,
+    "key": "barbarian-hut"
   },
   {
     "name": "Tesla",
     "id": 27000006,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png"
+    },
+    "type": "Building",
+    "elixir": 4,
+    "key": "tesla"
   },
   {
     "name": "Elixir Collector",
     "id": 27000007,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/BGLo3Grsp81c72EpxLLk-Sofk3VY56zahnUNOv3JcT0.png"
+    },
+    "type": "Building",
+    "elixir": 6,
+    "key": "elixir-collector"
   },
   {
     "name": "X-Bow",
     "id": 27000008,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png"
+    },
+    "type": "Building",
+    "elixir": 6,
+    "key": "x-bow"
   },
   {
     "name": "Tombstone",
     "id": 27000009,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png"
+    },
+    "type": "Building",
+    "elixir": 3,
+    "key": "tombstone"
   },
   {
     "name": "Furnace",
     "id": 27000010,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/iqbDiG7yYRIzvCPXdt9zPb3IvMt7F7Gi4wIPnh2x4aI.png"
+    },
+    "type": "Building",
+    "elixir": 4,
+    "key": "furnace"
   },
   {
     "name": "Fireball",
     "id": 28000000,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png"
+    },
+    "type": "Spell",
+    "elixir": 4,
+    "key": "fireball"
   },
   {
     "name": "Arrows",
     "id": 28000001,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Flsoci-Y6y8ZFVi5uRFTmgkPnCmMyMVrU7YmmuPvSBo.png"
+    },
+    "type": "Spell",
+    "elixir": 3,
+    "key": "arrows"
   },
   {
     "name": "Rage",
     "id": 28000002,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/bGP21OOmcpHMJ5ZA79bHVV2D-NzPtDkvBskCNJb7pg0.png"
+    },
+    "type": "Spell",
+    "elixir": 2,
+    "key": "rage"
   },
   {
     "name": "Rocket",
     "id": 28000003,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Ie07nQNK9CjhKOa4-arFAewi4EroqaA-86Xo7r5tx94.png"
+    },
+    "type": "Spell",
+    "elixir": 6,
+    "key": "rocket"
   },
   {
     "name": "Goblin Barrel",
     "id": 28000004,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png"
+    },
+    "type": "Spell",
+    "elixir": 3,
+    "key": "goblin-barrel"
   },
   {
     "name": "Freeze",
     "id": 28000005,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/I1M20_Zs_p_BS1NaNIVQjuMJkYI_1-ePtwYZahn0JXQ.png"
+    },
+    "type": "Spell",
+    "elixir": 4,
+    "key": "freeze"
   },
   {
     "name": "Mirror",
     "id": 28000006,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/wC6Cm9rKLEOk72zTsukVwxewKIoO4ZcMJun54zCPWvA.png"
+    },
+    "type": "Spell",
+    "elixir": 1,
+    "key": "mirror"
   },
   {
     "name": "Lightning",
     "id": 28000007,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/fpnESbYqe5GyZmaVVYe-SEu7tE0Kxh_HZyVigzvLjks.png"
+    },
+    "type": "Spell",
+    "elixir": 6,
+    "key": "lightning"
   },
   {
     "name": "Zap",
     "id": 28000008,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png"
+    },
+    "type": "Spell",
+    "elixir": 2,
+    "key": "zap"
   },
   {
     "name": "Poison",
     "id": 28000009,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/98HDkG2189yOULcVG9jz2QbJKtfuhH21DIrIjkOjxI8.png"
+    },
+    "type": "Spell",
+    "elixir": 4,
+    "key": "poison"
   },
   {
     "name": "Graveyard",
     "id": 28000010,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Icp8BIyyfBTj1ncCJS7mb82SY7TPV-MAE-J2L2R48DI.png"
+    },
+    "type": "Spell",
+    "elixir": 5,
+    "key": "graveyard"
   },
   {
     "name": "The Log",
     "id": 28000011,
-    "maxLevel": 5
+    "maxLevel": 5,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png"
+    },
+    "type": "Spell",
+    "elixir": 2,
+    "key": "the-log"
   },
   {
     "name": "Tornado",
     "id": 28000012,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/QJB-QK1QJHdw4hjpAwVSyZBozc2ZWAR9pQ-SMUyKaT0.png"
+    },
+    "type": "Spell",
+    "elixir": 3,
+    "key": "tornado"
   },
   {
     "name": "Clone",
     "id": 28000013,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/mHVCet-1TkwWq-pxVIU2ZWY9_2z7Z7wtP25ArEUsP_g.png"
+    },
+    "type": "Spell",
+    "elixir": 3,
+    "key": "clone"
   },
   {
     "name": "Barbarian Barrel",
     "id": 28000015,
-    "maxLevel": 8
+    "maxLevel": 8,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png"
+    },
+    "type": "Spell",
+    "elixir": 3,
+    "key": "barbarian-barrel"
   },
   {
     "name": "Heal",
     "id": 28000016,
-    "maxLevel": 11
+    "maxLevel": 11,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/GITl06sa2nGRLPvboyXbGEv5E3I-wAwn1Eqa5esggbc.png"
+    },
+    "type": "Spell",
+    "elixir": 3,
+    "key": "heal"
   },
   {
     "name": "Giant Snowball",
     "id": 28000017,
-    "maxLevel": 13
+    "maxLevel": 13,
+    "iconUrls": {
+      "medium": "https://api-assets.clashroyale.com/cards/300/7MaJLa6hK9WN2_VIshuh5DIDfGwm0wEv98gXtAxLDPs.png"
+    },
+    "type": "Spell",
+    "elixir": 2,
+    "key": "giant-snowball"
   }
 ]

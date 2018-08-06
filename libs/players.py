@@ -1,14 +1,11 @@
 import json
 import os
 
-import requests
-
-from config import *
+from api import get_location_top_players
 
 
 def get_country_top_players(country):
-    response = requests.get(API_URL + '/locations/' + str(country['id']) + '/rankings/players',
-                            headers=HEADERS).json()
+    response = get_location_top_players(country['id'])
     return {
         country['name']: [player['tag'].replace('#', '%') for player in response['items']]
     }
