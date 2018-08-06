@@ -31,3 +31,9 @@ Each sample vector will be of size (1x36)
 > **Y** = 1 (Player A won)
 
 > **Y** = 0 (Player B won)
+
+[Battle Log](https://drive.google.com/open?id=1-Ilc_i0TPVhZAl9BmVk_VRXlkF34stL-)
+Battle Log Collection for Training.
+```
+mongorestore --db deckCR --collection battle_log <path to dump>
+```
