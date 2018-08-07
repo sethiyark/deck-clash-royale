@@ -41,7 +41,7 @@
     "chargeDamage",
     "boostUp",
     "shield",
-    "freezePoint",
+    "freezeTime",
     "attackOnce",
     "spawnFreedom",
     "crownDamage",
@@ -51,6 +51,8 @@
     "multiTarget",
     "stunDuration",
     "mixed",
-    "spawnDamage"
+    "spawnDamage",
+    "lifeTime",
+    "deployTime"
   ]
 ]
