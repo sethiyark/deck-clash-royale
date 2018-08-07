@@ -17,3 +17,7 @@ class MongoUtils:
             self.__db_name[collection].insert_many(documents)
         except Exception as e:
             print(e, 'While Inserting')
+
+    def find(self, collection, query, args=None):
+        response = self.__db_name[collection].find(query, args)
+        return response
