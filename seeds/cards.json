@@ -1467,7 +1467,15 @@
     },
     "type": "Building",
     "elixir": 4,
-    "key": "tesla"
+    "key": "tesla",
+    "deployTime": 1000,
+    "hitPoints": 450,
+    "damage": 90,
+    "hitSpeed": 1000,
+    "groundDamage": true,
+    "airDamage": true,
+    "range": 5500,
+    "lifeTime": 40000
   },
   {
     "name": "Elixir Collector",
@@ -1478,7 +1486,12 @@
     },
     "type": "Building",
     "elixir": 6,
-    "key": "elixir-collector"
+    "key": "elixir-collector",
+    "deployTime": 1000,
+    "hitPoints": 505,
+    "damage": 90,
+    "lifeTime": 70000,
+    "elixirBoost": 8500
   },
   {
     "name": "X-Bow",
@@ -1489,7 +1502,14 @@
     },
     "type": "Building",
     "elixir": 6,
-    "key": "x-bow"
+    "key": "x-bow",
+    "deployTime": 3500,
+    "hitPoints": 1000,
+    "damage": 20,
+    "hitSpeed": 250,
+    "groundDamage": true,
+    "range": 11500,
+    "lifeTime": 40000
   },
   {
     "name": "Tombstone",
@@ -1500,7 +1520,13 @@
     },
     "type": "Building",
     "elixir": 3,
-    "key": "tombstone"
+    "key": "tombstone",
+    "deployTime": 1000,
+    "hitPoints": 240,
+    "lifeTime": 40000,
+    "spawn": 26000010,
+    "spawnCount": 1,
+    "spawnTime": 3000
   },
   {
     "name": "Furnace",
@@ -1511,7 +1537,13 @@
     },
     "type": "Building",
     "elixir": 4,
-    "key": "furnace"
+    "key": "furnace",
+    "deployTime": 1000,
+    "hitPoints": 570,
+    "lifeTime": 50000,
+    "spawn": 26000031,
+    "spawnCount": 2,
+    "spawnTime": 9900
   },
   {
     "name": "Fireball",
@@ -1522,7 +1554,14 @@
     },
     "type": "Spell",
     "elixir": 4,
-    "key": "fireball"
+    "key": "fireball",
+    "damage": 325,
+    "spawnFreedom": true,
+    "crownDamage": 113,
+    "canKnockBack": true,
+    "splashArea": 2500,
+    "groundDamage": true,
+    "airDamage": true
   },
   {
     "name": "Arrows",
@@ -1533,7 +1572,13 @@
     },
     "type": "Spell",
     "elixir": 3,
-    "key": "arrows"
+    "key": "arrows",
+    "damage": 115,
+    "spawnFreedom": true,
+    "crownDamage": 40,
+    "splashArea": 4000,
+    "groundDamage": true,
+    "airDamage": true
   },
   {
     "name": "Rage",
@@ -1544,7 +1589,11 @@
     },
     "type": "Spell",
     "elixir": 2,
-    "key": "rage"
+    "key": "rage",
+    "spawnFreedom": true,
+    "splashArea": 7000,
+    "lifeTime": 6000,
+    "boostUp": 300
   },
   {
     "name": "Rocket",
@@ -1555,7 +1604,14 @@
     },
     "type": "Spell",
     "elixir": 6,
-    "key": "rocket"
+    "key": "rocket",
+    "damage": 700,
+    "spawnFreedom": true,
+    "crownDamage": 245,
+    "splashArea": 2000,
+    "canKnockBack": true,
+    "groundDamage": true,
+    "airDamage": true
   },
   {
     "name": "Goblin Barrel",
@@ -1566,7 +1622,10 @@
     },
     "type": "Spell",
     "elixir": 3,
-    "key": "goblin-barrel"
+    "key": "goblin-barrel",
+    "spawnFreedom": true,
+    "spawn": 26000002,
+    "spawnCount": 3
   },
   {
     "name": "Freeze",
@@ -1577,7 +1636,12 @@
     },
     "type": "Spell",
     "elixir": 4,
-    "key": "freeze"
+    "key": "freeze",
+    "spawnFreedom": true,
+    "freezeTime": 4000,
+    "splashArea": 3000,
+    "groundDamage": true,
+    "airDamage": true
   },
   {
     "name": "Mirror",
@@ -1588,7 +1652,8 @@
     },
     "type": "Spell",
     "elixir": 1,
-    "key": "mirror"
+    "key": "mirror",
+    "mirror": true
   },
   {
     "name": "Lightning",
@@ -1599,7 +1664,13 @@
     },
     "type": "Spell",
     "elixir": 6,
-    "key": "lightning"
+    "key": "lightning",
+    "damage": 630,
+    "spawnFreedom": true,
+    "multiTarget": 3,
+    "crownDamage": 221,
+    "groundDamage": true,
+    "airDamage": true
   },
   {
     "name": "Zap",
@@ -1610,7 +1681,14 @@
     },
     "type": "Spell",
     "elixir": 2,
-    "key": "zap"
+    "key": "zap",
+    "damage": 75,
+    "spawnFreedom": true,
+    "crownDamage": 26,
+    "stunDuration": 500,
+    "splashArea": 2500,
+    "groundDamage": true,
+    "airDamage": true
   },
   {
     "name": "Poison",
@@ -1621,7 +1699,15 @@
     },
     "type": "Spell",
     "elixir": 4,
-    "key": "poison"
+    "key": "poison",
+    "damage": 57,
+    "spawnFreedom": true,
+    "crownDamage": 20,
+    "splashArea": 3500,
+    "lifeTime": 8000,
+    "hitSpeed": 250,
+    "groundDamage": true,
+    "airDamage": true
   },
   {
     "name": "Graveyard",
@@ -1632,7 +1718,15 @@
     },
     "type": "Spell",
     "elixir": 5,
-    "key": "graveyard"
+    "key": "graveyard",
+    "spawnFreedom": true,
+    "lifeTime": 10000,
+    "spawn": 26000010,
+    "spawnTime": 500,
+    "spawnCount": 20,
+    "splashArea": 4000,
+    "groundDamage": true,
+    "airDamage": true
   },
   {
     "name": "The Log",
@@ -1643,7 +1737,13 @@
     },
     "type": "Spell",
     "elixir": 2,
-    "key": "the-log"
+    "key": "the-log",
+    "damage": 240,
+    "crownDamage": 84,
+    "splashArea": 3900,
+    "projectileRange": 11100,
+    "groundDamage": true,
+    "canKnockBack": true
   },
   {
     "name": "Tornado",
@@ -1654,7 +1754,15 @@
     },
     "type": "Spell",
     "elixir": 3,
-    "key": "tornado"
+    "key": "tornado",
+    "damage": 26.5,
+    "spawnFreedom": true,
+    "crownDamage": 0,
+    "splashArea": 5500,
+    "hitSpeed": 500,
+    "lifeTime": 2000,
+    "groundDamage": true,
+    "airDamage": true
   },
   {
     "name": "Clone",
@@ -1665,7 +1773,8 @@
     },
     "type": "Spell",
     "elixir": 3,
-    "key": "clone"
+    "key": "clone",
+    "clone": true
   },
   {
     "name": "Barbarian Barrel",
@@ -1676,7 +1785,15 @@
     },
     "type": "Spell",
     "elixir": 3,
-    "key": "barbarian-barrel"
+    "key": "barbarian-barrel",
+    "damage": 211,
+    "crownDamage": 74,
+    "splashArea": 3900,
+    "projectileRange": 7000,
+    "groundDamage": true,
+    "canKnockBack": true,
+    "deathSpawn": 26000008,
+    "spawnCount": 1
   },
   {
     "name": "Heal",
@@ -1687,7 +1804,15 @@
     },
     "type": "Spell",
     "elixir": 3,
-    "key": "heal"
+    "key": "heal",
+    "damage": -5,
+    "spawnFreedom": true,
+    "crownDamage": 0,
+    "splashArea": 4000,
+    "hitSpeed": 500,
+    "lifeTime": 2500,
+    "groundDamage": true,
+    "airDamage": true
   },
   {
     "name": "Giant Snowball",
@@ -1698,6 +1823,14 @@
     },
     "type": "Spell",
     "elixir": 2,
-    "key": "giant-snowball"
+    "key": "giant-snowball",
+    "damage": 60,
+    "spawnFreedom": true,
+    "crownDamage": 21,
+    "splashArea": 3000,
+    "boostUp": -350,
+    "canKnockBack": true,
+    "groundDamage": true,
+    "airDamage": true
   }
 ]
