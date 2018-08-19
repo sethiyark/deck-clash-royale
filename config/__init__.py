@@ -13,11 +13,6 @@ API_URL = 'https://api.clashroyale.com/v1'
 
 API_TOKEN = ''
 
-HEADERS = {
-    'authorization': API_TOKEN,
-    'Accept': 'application/json'
-}
-
 if os.path.isdir(os.path.join(os.getcwd(), 'private')):
     try:
         import private
@@ -26,3 +21,8 @@ if os.path.isdir(os.path.join(os.getcwd(), 'private')):
 
     except Exception as e:
         print(e)
+
+HEADERS = {
+    'authorization': API_TOKEN,
+    'Accept': 'application/json'
+}
