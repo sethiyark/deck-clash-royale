@@ -1,3 +1,5 @@
+import os
+
 from utils.mongo import MongoUtils
 
 DB = MongoUtils('deckCR')
@@ -9,9 +11,17 @@ US_ID = '57000249'
 
 API_URL = 'https://api.clashroyale.com/v1'
 
-API_TOKEN = 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImY1YzA5NGU2LTBjNDQtNGI2OS1iZGMxLWFjZjgyOTUyMTI0ZSIsImlhdCI6MTUzNDY3MzgxNiwic3ViIjoiZGV2ZWxvcGVyL2VhNDQyNGQ3LTkwMDQtNTUwOS04Y2FkLTMyNjJmYjI4NzhmMCIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIyMDIuMTQyLjEwOC4xNzIiXSwidHlwZSI6ImNsaWVudCJ9XX0.dOyj1rZiB4D_4cO0zsM4GJisfI6UUJvfTuHiuC0i0q7sip39bXZFVzIFl3dXBDM2897Yl5dtDS9yfaY9KhA0iQ'
+API_TOKEN = ''
 
 HEADERS = {
     'authorization': API_TOKEN,
     'Accept': 'application/json'
 }
+
+if os.path.isdir(os.path.join(os.getcwd(), 'private')):
+    try:
+        import private
+        API_TOKEN = private.API_TOKEN
+
+    except Exception as e:
+        print(e)
