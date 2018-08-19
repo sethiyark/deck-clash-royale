@@ -21,3 +21,7 @@ class MongoUtils:
     def find(self, collection, query, args=None):
         response = self.__db_name[collection].find(query, args)
         return response
+
+    def map_reduce(self, collection, map_function, reduce_function, mr_collection):
+        result = self.__db_name[collection].map_reduce(map_function, reduce_function, mr_collection)
+        return result
