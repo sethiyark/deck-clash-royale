@@ -21,6 +21,7 @@ HEADERS = {
 if os.path.isdir(os.path.join(os.getcwd(), 'private')):
     try:
         import private
+
         API_TOKEN = private.API_TOKEN
 
     except Exception as e:
