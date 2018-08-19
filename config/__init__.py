@@ -1,6 +1,6 @@
 import os
 
-from utils.mongo import MongoUtils
+from utils import MongoUtils
 
 DB = MongoUtils('deckCR')
 
