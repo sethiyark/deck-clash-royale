@@ -161,7 +161,16 @@
     "groundDamage": true,
     "count": 1,
     "airDamage": true,
-    "spawn": 26000010,
+    "spawn": {
+      "speed": 90,
+      "deployTime": 1000,
+      "hitPoints": 32,
+      "hitSpeed": 1000,
+      "damage": 32,
+      "range": 500,
+      "groundDamage": true,
+      "knockBack": true
+    },
     "spawnCount": 3,
     "spawnTime": 4700,
     "knockBack": true
@@ -781,7 +790,11 @@
     "groundDamage": true,
     "count": 1,
     "knockBack": true,
-    "deathSpawn": 28000002
+    "deathSpawn": {
+      "splashArea": 7000,
+      "lifeTime": 6000,
+      "boostUp": 300
+    }
   },
   {
     "name": "Battle Ram",
@@ -1092,7 +1105,18 @@
     "groundDamage": true,
     "count": 1,
     "knockBack": true,
-    "spawn": 2600049,
+    "spawn": {
+      "name": "Bats",
+      "speed": 120,
+      "hitPoints": 52,
+      "hitSpeed": 1700,
+      "damage": 32,
+      "range": 5000,
+      "groundDamage": true,
+      "airDamage": true,
+      "knockBack": true,
+      "airTroop": true
+    },
     "spawnCount": 2,
     "spawnSpeed": 7000,
     "deathSpawn": {
@@ -1379,7 +1403,17 @@
     "deployTime": 1000,
     "hitPoints": 735,
     "lifeTime": 50000,
-    "spawn": 26000019,
+    "spawn": {
+      "speed": 120,
+      "deployTime": 1000,
+      "hitPoints": 52,
+      "hitSpeed": 1700,
+      "damage": 32,
+      "range": 5000,
+      "groundDamage": true,
+      "airDamage": true,
+      "knockBack": true
+    },
     "spawnCount": 1,
     "spawnTime": 5050
   },
@@ -1454,7 +1488,16 @@
     "deployTime": 1000,
     "hitPoints": 1100,
     "lifeTime": 60000,
-    "spawn": 26000008,
+    "spawn": {
+      "speed": 60,
+      "deployTime": 1000,
+      "hitPoints": 300,
+      "hitSpeed": 1400,
+      "damage": 75,
+      "range": 700,
+      "groundDamage": true,
+      "knockBack": true
+    },
     "spawnCount": 2,
     "spawnTime": 14000
   },
@@ -1524,7 +1567,16 @@
     "deployTime": 1000,
     "hitPoints": 240,
     "lifeTime": 40000,
-    "spawn": 26000010,
+    "spawn": {
+      "speed": 90,
+      "deployTime": 1000,
+      "hitPoints": 32,
+      "hitSpeed": 1000,
+      "damage": 32,
+      "range": 500,
+      "groundDamage": true,
+      "knockBack": true
+    },
     "spawnCount": 1,
     "spawnTime": 3000
   },
@@ -1541,7 +1593,19 @@
     "deployTime": 1000,
     "hitPoints": 570,
     "lifeTime": 50000,
-    "spawn": 26000031,
+    "spawn": {
+      "speed": 120,
+      "deployTime": 1000,
+      "hitPoints": 43,
+      "hitSpeed": 300,
+      "damage": 84,
+      "range": 2000,
+      "groundDamage": true,
+      "airDamage": true,
+      "attackOnce": true,
+      "knockBack": true,
+      "splashArea": 1500
+    },
     "spawnCount": 2,
     "spawnTime": 9900
   },
@@ -1624,7 +1688,16 @@
     "elixir": 3,
     "key": "goblin-barrel",
     "spawnFreedom": true,
-    "spawn": 26000002,
+    "spawn": {
+      "speed": 120,
+      "deployTime": 1000,
+      "hitPoints": 79,
+      "hitSpeed": 1100,
+      "damage": 47,
+      "range": 500,
+      "groundDamage": true,
+      "knockBack": true
+    },
     "spawnCount": 3
   },
   {
@@ -1721,7 +1794,17 @@
     "key": "graveyard",
     "spawnFreedom": true,
     "lifeTime": 10000,
-    "spawn": 26000010,
+    "spawn": {
+      "speed": 90,
+      "deployTime": 1000,
+      "hitPoints": 32,
+      "hitSpeed": 1000,
+      "damage": 32,
+      "range": 500,
+      "groundDamage": true,
+      "count": 3,
+      "knockBack": true
+    },
     "spawnTime": 500,
     "spawnCount": 20,
     "splashArea": 4000,
@@ -1792,8 +1875,17 @@
     "projectileRange": 7000,
     "groundDamage": true,
     "canKnockBack": true,
-    "deathSpawn": 26000008,
-    "spawnCount": 1
+    "deathSpawn": {
+      "speed": 60,
+      "deployTime": 1000,
+      "hitPoints": 300,
+      "hitSpeed": 1400,
+      "damage": 75,
+      "range": 700,
+      "groundDamage": true,
+      "count": 1,
+      "knockBack": true
+    }
   },
   {
     "name": "Heal",
