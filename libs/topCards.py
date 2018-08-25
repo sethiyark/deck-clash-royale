@@ -1,3 +1,4 @@
+import numpy as np
 from bson.code import Code
 
 from config import DB
@@ -47,6 +48,7 @@ def get_card_features(card, card_count):
                             have_features[-1] += 0
                         continue
                     card_features[-1] += c[feature]
+            continue
         if feature in c_features:
             have_features.append(1)
         else:
@@ -57,9 +59,9 @@ def get_card_features(card, card_count):
             card_features.append(0)
             if type(card[feature]) is dict:
                 try:
-                    card_features[-1] = (
+                    card_features[-1] = int(
                             card[feature]['damage'] / card[feature]['hitSpeed'] * card[feature]['hitPoints'])
-                except Exception as e:
+                except:
                     card_features[-1] = 0
             if card_features[-1] == 0:
                 have_features[-1] = 0
@@ -88,8 +90,8 @@ def get_cards_matrix():
         card_features, have_features = get_card_features(card, card_count)
         features_matrix.append(card_features)
         have_matrix.append(have_features)
-    # feature_matrix_array = np.array(features_matrix, np.int)
-    return features_matrix
+    feature_matrix_array = np.array(features_matrix, np.int)
+    return feature_matrix_array
 
 
 if __name__ == '__main__':
