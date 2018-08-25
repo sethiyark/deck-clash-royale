@@ -41,6 +41,7 @@ features = [
     "targetsBuilding",
     "deathSpawn",
     "spawn",
+    "heal",
     "airDamage",
     "airTroop",
     "spawnCount",
@@ -58,7 +59,6 @@ features = [
     "damageUpTo",
     "multiTarget",
     "stunDuration",
-    "mixed",
     "spawnDamage",
     "lifeTime",
     "deployTime"

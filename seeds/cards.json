@@ -519,7 +519,7 @@
     "airDamage": true,
     "count": 1,
     "knockBack": true,
-    "boostUp": -350,
+    "boostDown": 350,
     "splashArea": 1000
   },
   {
@@ -873,7 +873,7 @@
     "count": 1,
     "knockBack": true,
     "deathSpawn": {
-      "boostUp": -350
+      "boostDown": 350
     }
   },
   {
@@ -1897,7 +1897,7 @@
     "type": "Spell",
     "elixir": 3,
     "key": "heal",
-    "damage": -5,
+    "heal": 5,
     "spawnFreedom": true,
     "crownDamage": 0,
     "splashArea": 4000,
@@ -1920,7 +1920,7 @@
     "spawnFreedom": true,
     "crownDamage": 21,
     "splashArea": 3000,
-    "boostUp": -350,
+    "boostDown": 350,
     "canKnockBack": true,
     "groundDamage": true,
     "airDamage": true
