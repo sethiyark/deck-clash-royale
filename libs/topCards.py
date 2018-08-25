@@ -27,11 +27,26 @@ def get_cards_count():
 
 
 def get_card_features(card, card_count):
-    # TODO: Handle Mixed Features card
     card_features = []
     have_features = []
     c_features = card.keys()
+    m_features = set()
+    if 'mixed' in c_features:
+        for f in card['mixed']:
+            for key in f.keys():
+                m_features.add(key)
     for feature in features:
+        if feature in m_features:
+            have_features.append(1)
+            card_features.append(0)
+            for c in card['mixed']:
+                if feature in c.keys():
+                    if type(c[feature]) is bool:
+                        card_features[-1] += (1 if c[feature] else 0)
+                        if not c[feature]:
+                            have_features[-1] += 0
+                        continue
+                    card_features[-1] += c[feature]
         if feature in c_features:
             have_features.append(1)
         else:
@@ -42,9 +57,10 @@ def get_card_features(card, card_count):
             card_features.append(0)
             if type(card[feature]) is dict:
                 try:
-                    card_features[-1] = (card[feature]['damage']/card[feature]['hitSpeed']*card[feature]['hitPoints'])
-                except:
-                    pass
+                    card_features[-1] = (
+                            card[feature]['damage'] / card[feature]['hitSpeed'] * card[feature]['hitPoints'])
+                except Exception as e:
+                    card_features[-1] = 0
             if card_features[-1] == 0:
                 have_features[-1] = 0
         else:
