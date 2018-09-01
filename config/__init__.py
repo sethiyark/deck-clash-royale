@@ -56,10 +56,13 @@ features = [
     "crownDamage",
     "canKnockBack",
     "projectileRange",
-    "damageUpTo",
+    "damageUpto",
     "multiTarget",
     "stunDuration",
     "spawnDamage",
     "lifeTime",
     "deployTime"
 ]
+cards = []
+for c in DB.find('cards', {}):
+    cards.append(c)
