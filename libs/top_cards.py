@@ -32,6 +32,7 @@ def get_cards_count():
 
 
 def get_card_features(card, card_count):
+    # TODO: Update feature according to the level of the card
     card_features = []
     have_features = []
     c_features = card.keys()

@@ -18,3 +18,5 @@ def get_player_battle_log(player_tag, lock=None):
     finally:
         if lock:
             lock.release()
+
+# TODO: Get player cards and levels
